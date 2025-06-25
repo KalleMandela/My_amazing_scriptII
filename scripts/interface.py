@@ -11,5 +11,7 @@ def custom_menu():
     cmds.menuItem(parent=custom_menu, label='Hello world', c='from imp import reload; import hello_world; reload(hello_world); hello_world.menu_tester()')
     cmds.menuItem(parent=custom_menu, label='Group objects tool', c='from imp import reload; import group_objects.group_name; reload(group_objects.group_name); group_objects.group_name.GroupObjects().ui()')
     cmds.menuItem(parent=custom_menu, label='Bulk rename tool', c='from imp import reload; import bulk_rename_tool; reload(bulk_rename_tool); bulk_rename_tool.BulkRename().ui()')
+    cmds.menuItem(parent=custom_menu, label='FK_IK_tool', c='from imp import reload; import fk_ik_rig_tool; reload(fk_ik_rig_tool); fk_ik_rig_tool.FKRig().interface()')
+
 
 custom_menu()

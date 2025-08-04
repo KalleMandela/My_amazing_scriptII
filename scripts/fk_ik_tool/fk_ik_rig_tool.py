@@ -14,7 +14,7 @@ It will make it easier to difference the controllers.
 example of usage:
 
 from imp import reload;
-import FKControls.fk_rig as riggingset;
+import fk_ik_rig.fk_ik_rig_tool as riggingset;
 reload(riggingset)
 
 rig = riggingset.FKRig()

@@ -13,6 +13,8 @@ def custom_menu():
     cmds.menuItem(parent=custom_menu, label='Bulk rename tool', c='from imp import reload; import bulk_rename_tool; reload(bulk_rename_tool); bulk_rename_tool.BulkRename().ui()')
     cmds.menuItem(parent=custom_menu, label='FK_IK_tool', c='from imp import reload; import fk_ik_tool.fk_ik_rig_tool; reload(fk_ik_tool.fk_ik_rig_tool); fk_ik_tool.fk_ik_rig_tool.FKRig().interface()')
     cmds.menuItem(parent=custom_menu, label='Pivot_Points_tool', c='from imp import reload; import pivot_points.pivot_point_tool; reload(pivot_points.pivot_point_tool); pivot_points.pivot_point_tool.PivotPoints().interface()')
+    cmds.menuItem(parent=custom_menu, label='Three_light_tool', c='from imp import reload; import THREE_LIGHTS_TOOL.three_ligths; reload(THREE_LIGHTS_TOOL.three_ligths); THREE_LIGHTS_TOOL.three_ligths.Lights().interface()')
+
 
 
 

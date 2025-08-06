@@ -1,7 +1,7 @@
 import os
 import maya.cmds as cmds
 
-class Lights:
+class Lights():
 
     def __init__(self):
         pass

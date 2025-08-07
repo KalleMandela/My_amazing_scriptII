@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>884</width>
-    <height>606</height>
+    <height>675</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -58,7 +58,17 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="light_1_rot_line"/>
+       <widget class="QLineEdit" name="light_1_rot_x_line">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_1_rot_z_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_1_rot_y_line"/>
       </item>
       <item>
        <widget class="QLabel" name="light_1_dist_label">
@@ -68,11 +78,17 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="light_1_dist_line">
+       <widget class="QLineEdit" name="light_1_dist_x_line">
         <property name="text">
          <string/>
         </property>
        </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_1_dist_z_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_1_dist_y_line"/>
       </item>
      </layout>
     </item>
@@ -93,7 +109,13 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="light_2_rot_line"/>
+       <widget class="QLineEdit" name="light_2_rot_x_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_2_rot_z_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_2_rot_y_line"/>
       </item>
       <item>
        <widget class="QLabel" name="light_2_dist_label">
@@ -103,7 +125,13 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="light_2_dist_line"/>
+       <widget class="QLineEdit" name="light_2_dist_x_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_2_dist_z_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_2_dist_y_line"/>
       </item>
      </layout>
     </item>
@@ -124,7 +152,13 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="light_3_rot_line"/>
+       <widget class="QLineEdit" name="light_3_rot_x_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_3_rot_z_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_3_rot_y_line"/>
       </item>
       <item>
        <widget class="QLabel" name="light_3_dist_label">
@@ -134,7 +168,13 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="light_3_dist_line"/>
+       <widget class="QLineEdit" name="light_3_dist_x_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_3_dist_z_line"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="light_3_dist_y_line"/>
       </item>
      </layout>
     </item>
